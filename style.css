@@ -28,7 +28,8 @@ body{
 
 .main-content{
     display: grid;
-    grid-template: repeat(2, 1fr)/repeat(2,1fr);
+    grid-template: repeat(1, 1fr)/repeat(2,1fr);
+
 }
 
 .nav{
@@ -70,24 +71,34 @@ a{
     font-size: 24px;
 }
 
-.logo,.awesome{
+.logo,.awesome,.waterfall-discription{
     color: #F9faf8;
 }
 
 
 .img-container{
   grid-column: 2/ span 1;
-  grid-row: 1/span 2;
+  grid-row: 1/span 1;
   color: #F9faf8;
   flex-direction: row;
   position: relative;
-  border-bottom:3px black solid;
+  border: red 8px solid;
 }
 
-img{
+.waterfall-discription{
+    grid-column: 1/ span 2;
+    grid-row: 2;
+    z-index: 1;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: fit-content;
+}
+
+.waterfall-photo{
     z-index: 0;
     position: absolute;
-    max-height: 100%;
+    height: 100%;
     width: 100%;
 }
 
