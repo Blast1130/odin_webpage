@@ -75,10 +75,20 @@ a{
 }
 
 
-.img{
+.img-container{
   grid-column: 2/ span 1;
   grid-row: 1/span 2;
   color: #F9faf8;
+  flex-direction: row;
+  position: relative;
+  border-bottom:3px black solid;
+}
+
+img{
+    z-index: 0;
+    position: absolute;
+    max-height: 100%;
+    width: 100%;
 }
 
 .awesome{
