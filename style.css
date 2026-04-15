@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+.links{
+    margin-left: auto;
+}
+
+.forth-page-content{
+    height: 25vh;
+}
+
+.forth-page-content p{
+    max-width: 60ch;
+}
