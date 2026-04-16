@@ -86,10 +86,11 @@ a{
     display: flex;
     flex-direction: row;
     gap: 1.75rem;
+    padding-top: 1.5rem;
 }
 
 .square-photos{
-    border: blue .08125rem solid;
+    border: blue .1625rem solid;
     max-width: 10rem;
     max-height: 10rem;
 }
