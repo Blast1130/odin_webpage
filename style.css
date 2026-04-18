@@ -41,6 +41,13 @@ a{
     text-align: center;
 }
 
+/* Turn off grid/change layout for tablets and phones */
+@media (max-width: 768px) {
+    .first-forth-page-content {
+        display: block;
+    }
+}
+
 .first-forth-page-content p{
     max-width: 45ch;
     font-weight: 100;
@@ -84,12 +91,11 @@ a{
 }
 
 .padded-forths{
-    padding: 0 5rem;
-    padding-bottom: 5rem;
+    padding:  0 3rem;
 }
 
 .second-forth-page-content{
-    padding: 1.5rem 7rem;
+    padding: 1.5rem;
 }
 
 .second-forth-page-content a{
@@ -134,9 +140,9 @@ a{
 }
 
 .quote-page-content{
-    padding: 7rem;
     margin: 3rem;
-    font-size: 3ch;
+    padding: 1.5rem;
+    font-size: 2ch;
     background-color: lightgreen;
 }
 
